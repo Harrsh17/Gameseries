@@ -1,0 +1,10 @@
+*.class
+target/
+.vscode/
+*.jar
+*.war
+.settings/
+.project
+.classpath
+bin/
+out/
