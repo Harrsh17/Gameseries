@@ -69,7 +69,7 @@ public class TicTacToe {
         if(!moveExist) {
             move.put(x, y);
             movetracker.add(move);
-            System.out.println("Great ,you position is marked , Next Player please select your position");
+            System.out.println("Great ,your position is marked , Next Player please select your position");
         }
 
         if (movetracker.isEmpty())
@@ -125,7 +125,7 @@ public class TicTacToe {
         }
         else
         {
-            System.out.println("Game Over" + " " + currentplayer + " is the winner");
+            System.out.println("Game Over  " + " " + currentplayer + " is the winner");
         }
 
     }
